@@ -1,8 +1,8 @@
 package com.senac.estruturas;
 
 public class ListaOrdenada<T extends Comparable<T>>
-				extends ListaEncadeada<T> {
-	
+				extends ListaEncadeada<T>
+{	
 	public Nodo<T> procuraNodo(Nodo<T> needle)
 	{
 		Nodo<T> atual = getHead();
@@ -53,11 +53,3 @@ public class ListaOrdenada<T extends Comparable<T>>
 		
 	}
 }
-
-
-
-
-
-
-
-

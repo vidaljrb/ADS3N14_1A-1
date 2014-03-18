@@ -15,7 +15,7 @@ public class ListaEncadeada<T> {
 		novo.setNext(head);
 		head = novo;
 		if (tail == null)
-			tail = head;
+			tail = novo;
 	}
 	
 	public void insert(Nodo<T> novo, Nodo<T> anterior)
@@ -54,12 +54,3 @@ public class ListaEncadeada<T> {
 	}
 
 }
-
-
-
-
-
-
-
-
-
